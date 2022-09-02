@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Okwor Joshua</title>
     <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="color-1.css">
@@ -16,8 +16,15 @@
     <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="style-switcher.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-</head>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("SQ7t5XhOwjXMRcpFq");
+        })();
+    </script>
+    </head>
 <body>
 
     <!-- Main Container Start -->
@@ -416,36 +423,36 @@
                     <!-- Contact Form -->
                     <div class="row">
                         <div class="contact-form padd-15" >
-                          <form id="form" action="https://formsubmit.co/f5c7c81112ff4b8097cee73770b42f82" method="POST">
+                          <form id="form">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                                        <input type="text" id="name"  class="form-control" placeholder="Name" required>
                                     </div>
                                 </div>
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                        <input type="email" id="email_id"  class="form-control" placeholder="Email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <input type="text" id="message" name="message" class="form-control" placeholder="Message" required>
+                                        <input type="text" id="subject"  class="form-control" placeholder="Subject" required>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="message" name="message" placeholder="Message" required></textarea>
-                                    </div>
-                                </div>
-                            </div> -->
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
-                                    <button type="submit" value="Submit" class="btn">Send Message</button>
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="message"  placeholder="Message" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button onclick="SendMail()" class="btn">Send Message</button>
                                 </div>
                             </div>
                           </form>

@@ -101,3 +101,19 @@ $(document).ready(function() {
         window.location.href = "Okwor Joshua.docx";
     });
 });
+
+
+
+/* ========== Send Mail script starts ========== */
+
+function SendMail() {
+    var params = {
+        from_name : document.getElementById("name").value,
+        email_id : document.getElementById("email_id").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_2k15vc2", "template_mv4fwhd", params).then(function (res) {
+        alert("Thank you for contacting me! " + res.status);
+    })
+}
