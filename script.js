@@ -101,24 +101,3 @@ $(document).ready(function() {
         window.location.href = "Okwor Joshua.docx";
     });
 });
-
-
-    /* ========== Send Message script starts ========== */ 
-
-// function sendEmail(){
-//     Email.send({
-//         // SecureToken : "e6bdb1c5-64c7-49b1-b1f9-53c5e566e0e7",
-//         Host : "smtp.elasticemail.com",
-//         Username : "smartcash565@gmail.com",
-//         Password : "E06D0DE343DF92FD8C876850E93F58AD251F",
-//         To : 'joshuaokwor565@gmail.com',
-//         From : document.getElementById("email").value,
-//         Subject : "New Contact Form Enquiry",
-//         Body : "Name: " + document.getElementById("name").value
-//         + "<br> Email: " + document.getElementById("email").value
-//         + "<br> Subject: " + document.getElementById("subject").value
-//         + "<br> Message: " + document.getElementById("message").value
-//     }).then(
-//       message => alert("message Sent Succesfully")
-//     );
-// }
