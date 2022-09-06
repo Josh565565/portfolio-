@@ -305,7 +305,7 @@ ul
 
 #social {
     color: var(--skin-color);
-    margin-top: 500px;
+    margin-top: 400px;
     position:absolute;
     word-spacing: 20px;
 }
@@ -838,6 +838,12 @@ h3.my-profession
         display: block;
         margin-left: 0;
     }
+    #social {
+        color: var(--skin-color);
+        margin-top: 400px;
+        position:absolute;
+        word-spacing: 20px;
+    }
 }
 @media (max-width: 991px)
 {   
@@ -856,6 +862,12 @@ h3.my-profession
     .home .home-img
     {
         display: none;
+    }
+    #social {
+        color: var(--skin-color);
+        margin-top: 400px;
+        position:absolute;
+        word-spacing: 20px;
     }
 }
 @media (max-width: 767px)
@@ -899,6 +911,9 @@ h3.my-profession
     }
 
     #social {
-        display: block;
+        color: var(--skin-color);
+        margin-top: 400px;
+        position:absolute;
+        word-spacing: 20px;
     }
 }
