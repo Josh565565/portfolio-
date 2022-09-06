@@ -302,6 +302,13 @@ ul
 {
     margin-right: 15px;
 }
+
+#social {
+    color: var(--skin-color);
+    margin-top: 500px;
+    position:absolute;
+    word-spacing: 20px;
+}
 /* Home */
 .home
 {
@@ -867,11 +874,11 @@ h3.my-profession
     }
 
     #authwiki-img {
-        width: 340px;
+        width: 330px;
         height: 180px;
     }
     #chino-img {
-        width: 340px;
+        width: 330px;
         height: 180px;
     }
     #nature-img {
@@ -889,5 +896,9 @@ h3.my-profession
     #crud-img {
         width: 340px;
         height: 180px;
+    }
+
+    #social {
+        display: block;
     }
 }
