@@ -680,6 +680,31 @@ h3.my-profession
     width: 100%;
     display: block;
 }
+
+#authwiki-img {
+    width: 320px;
+    height: 180px;
+}
+#chino-img {
+    width: 320px;
+    height: 180px;
+}
+#nature-img {
+    width: 320px;
+    height: 180px;
+}
+#portfolio-img {
+    width: 320px;
+    height: 180px;
+}
+#crud-img {
+    width: 320px;
+    height: 180px;
+}
+#crud-img {
+    width: 320px;
+    height: 180px;
+}
 /* Contact */
 .contact-title
 {
@@ -841,4 +866,28 @@ h3.my-profession
         max-width: 100%;
     }
 
+    #authwiki-img {
+        width: 340px;
+        height: 180px;
+    }
+    #chino-img {
+        width: 340px;
+        height: 180px;
+    }
+    #nature-img {
+        width: 340px;
+        height: 180px;
+    }
+    #portfolio-img {
+        width: 340px;
+        height: 180px;
+    }
+    #crud-img {
+        width: 340px;
+        height: 180px;
+    }
+    #crud-img {
+        width: 340px;
+        height: 180px;
+    }
 }
