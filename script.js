@@ -88,7 +88,7 @@ function asideSectionTogglerBtn() {
 $(document).ready(function () {
   $("#btnDownload").click(function (e) {
     e.preventDefault();
-    window.location.href = "Okwor Joshua.docx";
+    window.location.href = "Joshua-Okwor.pdf";
   });
 });
 
