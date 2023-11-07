@@ -328,6 +328,7 @@ h3.hello
 }
 h3.hello span
 {
+    /* font-family: 'League Spartan', sans-serif; */
     font-family: 'Clicker Script' , cursive;
     font-size: 30px;
     font-weight: 700;
