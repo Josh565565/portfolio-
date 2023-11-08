@@ -702,7 +702,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 #project-read-more-div2 {
     display: none;
@@ -715,7 +715,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 #project-read-more-div3 {
     display: none;
@@ -728,7 +728,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 #project-read-more-div4 {
     display: none;
@@ -741,7 +741,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 #project-read-more-div5 {
     display: none;
@@ -754,7 +754,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 #project-read-more-div6 {
     display: none;
@@ -767,7 +767,7 @@ h3.my-profession
     width: 280px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 9;
 }
 
 /* For future me */
@@ -939,7 +939,7 @@ h3.my-profession
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 999;
     
 }
 /* .modal-div1 {
